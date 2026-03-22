@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "MeetFlow",
-  description: "簡單的會議排程工具",
+  description: "A lightweight meeting availability finder built with Next.js.",
 };
 
 export default function RootLayout({
